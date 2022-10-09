@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 	
-	@RequestMapping(method = RequestMethod.GET, value = "/api/javainuse")
+	@RequestMapping(method = RequestMethod.GET, value = "/api/merge")
 	public String sayHello() {
-		return "Swagger Hello World";
+		return "Swagger Hello World merge";
 	}
 }
