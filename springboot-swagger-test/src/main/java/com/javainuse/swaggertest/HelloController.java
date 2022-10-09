@@ -9,6 +9,6 @@ public class HelloController {
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/api/merge")
 	public String sayHello() {
-		return "Swagger Hello World merge";
+		return "Swagger Hello World merge1ss";
 	}
 }
